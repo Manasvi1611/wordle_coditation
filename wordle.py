@@ -36,7 +36,7 @@ while(play):  # Loop until user wishes to quit
     word_file = open('word_list.txt', 'r')
     word_list = word_file.readlines()
     word = word_list[random.randint(0, len(word_list))]
-    print('\nWord chosen is '+word.replace('\n','')) # Line for debugging, remove it later once program is working fine.
+
   
 
     won = 0  # This is a flag
